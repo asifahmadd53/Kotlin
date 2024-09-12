@@ -25,4 +25,27 @@ fun main (){
     ++k
 
     println(k)
+
+//    val above70 = false
+    val above70 = true
+    val isPrograming = false
+
+
+//    val calledInterview = above70 && isPrograming
+//    println(calledInterview)
+    val calledInterview = above70 || isPrograming
+    println(calledInterview)
+
+
+    var result = i == 11
+
+
+
+
+
+
+
+
+
+
 }
