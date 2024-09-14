@@ -1,9 +1,9 @@
 fun main(){
-//    var count = 1
-//    while (count <= 5) {
-//        println("HII Asif")
-//        count++;
-//    }
+    var count = 1
+    while (count <= 5) {
+        println("HII Asif")
+        count++;
+    }
 
 //    val number = 2;
 //    var index = 1
@@ -12,11 +12,11 @@ fun main(){
 //        index++
 //    }
 
-//    var index = 1;
-//    do {
-//        println("Hello")
-//        index++
-//    }while (index>5)
+    var index = 1;
+    do {
+        println("Hello")
+        index++
+    }while (index>5)
 
 
     for(i in 1..5 step 4){
