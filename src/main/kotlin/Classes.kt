@@ -8,13 +8,12 @@ fun main() {
 
     println(beetle.name)
     mustang.driveCar()
+    beetle.driveCar()
 }
-
-class Car(val name: String, val type: String, val kmRun: Int) {
+class Car(val name: String, val type: String, var kmRun: Int) {
     fun driveCar() {
         println("The $name is driving")
     }
-
     fun applyBrakes() {
         println("Brakes applied")
     }
